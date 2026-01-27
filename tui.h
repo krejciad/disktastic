@@ -1,5 +1,13 @@
 #pragma once
 
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <ncurses.h>
+
+int center_x(int, const std::string&);
+
 namespace tui{
     void tui_init();
     void tui_exit();
@@ -19,7 +27,9 @@ namespace tui{
         MENU_HOME,
         MENU_EXIT
     };
+}
 
+namespace tui{
     MainMenuChoice draw_main_menu();
     ListDisksChoice draw_list_menu();
 }
