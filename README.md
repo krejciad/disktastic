@@ -26,6 +26,8 @@ It provides a fast, keyboard-driven way to inspect and manage disks directly fro
 
 Using an AUR helper (example with `yay`):
 
+> Not ready yet, use Manual Build instead
+
 ```bash
 yay -S disktastic
 ```
